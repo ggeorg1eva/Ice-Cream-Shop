@@ -74,14 +74,6 @@ public class IceCreamShop {
                 .sum();
     }
 
-    public List<IceCream> getIceCreams() {
-        return iceCreams;
-    }
-
-    public List<Order> getOrders() {
-        return orders;
-    }
-
     /**
      * Helper method which returns the available flavours of the ice creams in the shop as a string.
      * Example: vanilla, chocolate
