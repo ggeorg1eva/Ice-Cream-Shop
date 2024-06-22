@@ -24,7 +24,7 @@ public class Main {
         //total price is 100 * 1.25 / 100 + 1.50 because there is decoration
         String s3 = shop.orderIceCream(Constants.VANILLA_FLAVOUR, Constants.CHOCOLATE_GLAZE, 100);
         eatingStrategy = new EatOnBeach();
-        System.out.println(String.format("%s. Enjoy your ice cream %s nearby!", s3, eatingStrategy.eat()));
+        System.out.println(String.format("%s. Enjoy your ice cream %s!", s3, eatingStrategy.eat()));
 
         System.out.println("*******************************************");
         //total revenue is 2.60 + 2.75 from the 2 orders placed above
